@@ -20,3 +20,6 @@ def solution(input):
 class Test(unittest.TestCase):
     def test_01(self):
         self.assertEqual(solution(10), 17)
+
+    def test_02(self):
+        self.assertEqual(solution(2000000), 17)
